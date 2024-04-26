@@ -30,7 +30,9 @@ For the assignment, only the synthetically  generated web logs are provided to t
 
 ### Prerequisites
 Python 3.9.0+
+
 pip
+
 git
 
 ### Setup

@@ -20,7 +20,7 @@ An overview of the main files will be provided below:
 * generate_data.py: This Python file takes the original NASA server logs as an input and creates 4 CSV files that are saved into baseline, flash crowd, DDoS attack, and FRC folders. 
 * Challenge folders: There are 4 folders for each of the challenges in the project. Each folder contains a CSV file created by generate_data.py, a Python file to process the data to answer the questions in each challenge, and 1 or more images that visualize the synthetically generated data.
 * requirements.txt: This contains a listof Python libraries required to run the project. See the "Installation and Usage" for more details.
-* The Cavnas assignment is also exported and included in the repository.
+* frc-nifty-assignment-export.imscc: The Cavnas assignment is also exported and included in the repository.
 
 For the assignment, only the synthetically  generated web logs are provided to the students.
 

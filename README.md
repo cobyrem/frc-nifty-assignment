@@ -12,7 +12,7 @@ After completing this [nifty assignment](http://nifty.stanford.edu/) inspired by
 In a publicly available [Canvas assignment](https://canvas.instructure.com/enroll/67KLBL), students will follow the story of Alex, a cloud engineer working on a e-commerice platform at Swift Mart, as he tackles 4 cloud security challenges.
 
 ## Repository Contents
-The GitHub Repository contains all necessary files to synthetically generate baseline, flash crowd, DDoS attack, and FRC attack data using [NASA server web logs from Jully 1995](https://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html). The generated data, sample code, output, and visualizations are also provided for each of the 4 challanges in the assignment. The data generation and sample code for the challenges is written in Python, altough the challenges can be performed in any software or programming language.
+The GitHub Repository contains all necessary files to synthetically generate baseline, flash crowd, DDoS attack, and FRC attack data using [NASA server web logs from July 1995](https://ita.ee.lbl.gov/html/contrib/NASA-HTTP.html). The generated data, sample code, output, and visualizations are also provided for each of the 4 challanges in the assignment. The data generation and sample code for the challenges is written in Python, altough the challenges can be performed in any software or programming language.
 
 
 An overview of the main files will be provided below:

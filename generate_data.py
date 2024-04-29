@@ -203,8 +203,8 @@ def generate_ddos_data(data_dict: DataFrame, unique_paths: list, start_time: dat
     for sec in range(int(plateau_duration)):
         start_time = start_time + datetime.timedelta(seconds=1)
         # num_reqs = calculate_exponential_change(sec, N_0, max_value, plateau_duration, True)  # Assuming it remains constant during the plateau
-        num_reqs = 55
-        data_dict = generate_fake_data_dict(ips, unique_paths, start_time, math.floor(num_reqs + random.randint(-7,2)))
+        num_reqs = max_value
+        data_dict = generate_fake_data_dict(ips, unique_paths, start_time, math.floor(num_reqs + random.randint(2,8)))
         fake_data_df = fake_data_df._append(data_dict, ignore_index=True)
 
     # Wind down period
@@ -371,7 +371,7 @@ def main():
         ddos_start_datetime='2023-07-10 06:30:00',
         ddos_end_datetime='2023-07-10 11:30:00',  # Example end time based on a hypothetical duration
         N_0=1,
-        max_value=55,
+        max_value=60,
         cap_time_percentage=0.90,  # 90% of the event duration is for the plateau phase
         csv_filename= os.path.join(current_directory,"ddos/ddos.csv")
     )

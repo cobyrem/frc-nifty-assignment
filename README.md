@@ -128,11 +128,14 @@ python3 ddos/ddos_challenge.py
 
 Terminal Output:
 ```
-The maximum requests per second in the flash crowd is 65                                                                                                                                               
-Running flash crowd detection algorithm but with DDoS data.                   
-Flash crowd at or above 50 requests/second detected at 2023-07-10 06:44:40                                                                                                 
-DDoS attack was detected as a flash crowd                                                                                                                                                              
-DDoS attack at or above 10 requests/client detected at 2023-07-10 06:41:00
+The maximum requests per second in the flash crowd is 77
+
+Running flash crowd detection algorithm but with DDoS data.
+Flash crowd at or above 50 requests/second detected at 2023-07-10 06:44:20
+
+DDoS attack was detected as a flash crowd
+
+DDoS attack at or above 10 requests/client detected at 2023-07-10 06:40:00
 Flash crowd or DDoS attack not detected at 10 requests/client. Use the original script to detect flash crowds
 ```
 

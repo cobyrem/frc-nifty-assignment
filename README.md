@@ -163,4 +163,4 @@ File Output:
 Students can sign up for the FRC Nifty Assignment using the following link:
 https://canvas.instructure.com/enroll/67KLBL
 
-The template for the assignment on Canvas Commons by searching for "FRC Nifty Assignment"
+The assignment can be found on Canvas Commons by searching for "FRC Nifty Assignment" or by accessing the following URL: https://lor.instructure.com/resources/668cb6b803f94197996d6c42f3b63e4f?shared
